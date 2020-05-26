@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.Web", "WebSCADA.Web\WebSCADA.Web.csproj", "{DA4B3E24-9D7F-43A6-A85E-F6D0524C10C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.BLL", "WebSCADA.BLL\WebSCADA.BLL.csproj", "{49772688-D393-4495-A6A9-16686586E26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.DAL", "WebSCADA.DAL\WebSCADA.DAL.csproj", "{5A31EF64-8768-465C-9CAA-C025CC5DF6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.Infrastructure", "WebSCADA.Infrastructure\WebSCADA.Infrastructure.csproj", "{09362A1A-446B-4152-9711-1058C08EEB7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.Domain", "WebSCADA.Domain\WebSCADA.Domain.csproj", "{2C4F005C-8F72-4968-A04C-BCBF6511249B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{386EB9B5-565E-40E1-89B7-6CA0172CEEC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSCADA.BLL.Tests", "WebSCADA.BLL.Tests\WebSCADA.BLL.Tests.csproj", "{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4B3E24-9D7F-43A6-A85E-F6D0524C10C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4B3E24-9D7F-43A6-A85E-F6D0524C10C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4B3E24-9D7F-43A6-A85E-F6D0524C10C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4B3E24-9D7F-43A6-A85E-F6D0524C10C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49772688-D393-4495-A6A9-16686586E26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49772688-D393-4495-A6A9-16686586E26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49772688-D393-4495-A6A9-16686586E26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49772688-D393-4495-A6A9-16686586E26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A31EF64-8768-465C-9CAA-C025CC5DF6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A31EF64-8768-465C-9CAA-C025CC5DF6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A31EF64-8768-465C-9CAA-C025CC5DF6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A31EF64-8768-465C-9CAA-C025CC5DF6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09362A1A-446B-4152-9711-1058C08EEB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09362A1A-446B-4152-9711-1058C08EEB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09362A1A-446B-4152-9711-1058C08EEB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09362A1A-446B-4152-9711-1058C08EEB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4F005C-8F72-4968-A04C-BCBF6511249B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4F005C-8F72-4968-A04C-BCBF6511249B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4F005C-8F72-4968-A04C-BCBF6511249B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4F005C-8F72-4968-A04C-BCBF6511249B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5838FAB4-A1E3-4F44-9F15-5DB9271F1B04} = {386EB9B5-565E-40E1-89B7-6CA0172CEEC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABEADB12-A954-4D94-8DF0-EC4D63D002F4}
+	EndGlobalSection
+EndGlobal
